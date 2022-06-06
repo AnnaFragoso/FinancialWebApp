@@ -9,4 +9,4 @@ class ApplicationController{
   }
 }
 
-export const applicationController = new  ApplicationController();
+export const applicationController = new ApplicationController();
