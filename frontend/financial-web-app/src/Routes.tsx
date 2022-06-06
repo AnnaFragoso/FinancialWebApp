@@ -7,6 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import App from "./App";
+import Dashboard from "../src/layout/DashboardLayout";
 import LoginPage from "./pages/Widget";
 
 export const DefaultRouter = () => {
@@ -14,11 +15,11 @@ export const DefaultRouter = () => {
     <Router>
       <Routes>
         <Route
-          path="/welcome"
-          element={<App />}
+          path="/dashboard"
+          element={<Dashboard />}
         />
          <Route
-          path="/login"
+          path="/"
           element={<LoginPage />}
         />
       </Routes>
